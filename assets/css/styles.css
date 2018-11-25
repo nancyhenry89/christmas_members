@@ -2,31 +2,15 @@
 @font-face{font-family:gotham;src:url(../fonts/gotham.ttf)}
 .mobile{display:none}
 .desktop{display:block}
-body{font-family:var(--main-font);color:var(--textcolor);background: url(../imgs/bg.png);background-size: cover;}
+body{font-family:var(--main-font);color:var(--textcolor);background:url(../imgs/bg.png);background-size:cover}
 img{max-width:100%}
-
-img.santa {
-    position: absolute;
-    left: -48px;
-    width: 474px;
-    top: -15%;
-    z-index: 9;
-}
-.offer:after {
-    content: "";
-    display: block;
-    width: 3px;
-    height: 100%;
-    background: #dc5254;
-    position: absolute;
-    right: 196px;
-    top: 0;
-}
+img.santa{position:absolute;left:-48px;width:474px;top:-15%;z-index:9}
+.offer:after{content:"";display:block;width:3px;height:100%;background:#dc5254;position:absolute;right:196px;top:0}
 .popup-title{background:#fff;width:290px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center}
 .popup{position:fixed;bottom:20px;z-index:9}
 .popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width:460px;height:auto;bottom:1px;position:absolute;z-index:9;display:none}
 .popup h2{font-size:13px;font-weight:700;color:#331830;padding:0 0 8px;margin-top:0}
-.offer-info button:hover{color:#fff;background: #06cc45;}
+.offer-info button:hover{color:#fff;background:#06cc45}
 .popup .wrp{padding:10px;background-color:#fff;border:1px solid #c5c5c5;position:relative;max-width:100%}
 .txt-wrap{width:100%;position:relative}
 .point{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;margin-bottom:11px;-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}
@@ -39,41 +23,23 @@ img.santa {
 .pick-btn:hover{background:#37f5f3;color:#fff}
 .popup-outer{float:left;width:100%;height:50px}
 .container-fluid{padding:0}
-.offer-action .sub {
-    font-family: 'Oswald', sans-serif;
-    color: #000;
-    padding-left: 8px;
-    float: left;
-    margin-top: -2px;
-    font-size: 13px;
-}
-
-.offer-action .sub:after {
-    content: "";
-    display: block;
-    width: 20px;
-    height: 1px;
-    background: #fff;
-    margin-top: 14px;
-    margin-left: 3px;
-}
-header {
-    background: url(../imgs/header.png);
-}
+.offer-action .sub{font-family:'Oswald',sans-serif;color:#000;padding-left:8px;float:left;margin-top:-2px;font-size:13px}
+.offer-action .sub:after{content:"";display:block;width:20px;height:1px;background:#fff;margin-top:14px;margin-left:3px}
+header{background:url(../imgs/header.png)}
 h3{color:#fff;text-shadow:3px 1px 8px #4a4a4a;margin-top:10px;font-size:19px;font-weight:700;word-spacing:4px;letter-spacing:.5px;margin-bottom:18px}
 header p{color:#000;font-weight:700;width:516px;margin:auto;line-height:22px;font-size:12px;letter-spacing:1px;max-width:100%}
 .offers{text-align:left}
-.offer{float:left;background: #ffffffd9;height: 271px;margin-bottom: 3px;padding: 45px 40px;position: relative;}
-.offer-img{width: 27%;}
+.offer{float:left;background:rgba(255,255,255,0.8);height:271px;margin-bottom:3px;padding:45px 40px;position:relative}
+.offer-img{width:27%}
 .title .logo{float:left;width:129px;margin-top:16px}
 .title .text{float:left}
-.offer .title{float:left;width:100%;font-family: "gotham";color: #000;padding-left: 8px;font-style: oblique;padding-top: 2px;}
-.offer-action{width: 48%;padding-left:15px;}
+.offer .title{float:left;width:100%;font-family:"gotham";color:#000;padding-left:8px;font-style:oblique;padding-top:2px}
+.offer-action{width:48%;padding-left:15px}
 .offer>div{float:left}
 .container-fluid.content>.container{max-width:100%}
 .more{float:left;color:#28b7f2;font-weight:700;font-style:oblique;font-size:12px;margin-top:3px;padding-left:6px}
 .more i:before{font-size:10px}
-.offer-info{float:left;width: 25%;padding-left:24px;}
+.offer-info{float:left;width:25%;padding-left:24px}
 .more i{border:1px solid;border-radius:50%;height:24px;width:24px;text-align:center;line-height:20px;margin-left:4px}
 .offer-info button i{position:absolute;right:12px;top:10px;font-size:14px}
 .comments .date{margin-top:-10px;font-size:11px;float:right;color:#000}
@@ -84,23 +50,19 @@ button.primary-btn.btn.recent{background:#126182;border-radius:0;margin-top:4px;
 .comment .pic{float:left}
 .comment{font-size:12px}
 :root{--textcolor:#114c65;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'Open Sans',sans-serif}
-.content{max-width: 784px;text-align:center;padding-bottom: 60px;min-height:100vh;margin-top: 30px;}
+.content{max-width:784px;text-align:center;padding-bottom:60px;min-height:100vh;margin-top:30px}
 header{text-align:center}
 header p span{color:#e9000b;letter-spacing:0}
 .offers{text-align:left}
 .title .text{float:left}
-.offer-info button{width: 122px;background: #1aad4a;/* border:2px solid #00739d; */color:#fff;/* text-shadow:2px 1px 3px #4a4a4a; */font-size: 14px;text-align: center;/* padding-left:25px; */letter-spacing:.7px;height: 41px;transition:all .5s ease;position:relative;max-width:100%;font-family: "gotham";font-style: oblique;text-transform: uppercase;margin-top: 90px;margin-left: 32px;}
+.offer-info button{width:122px;background:#1aad4a;color:#fff;font-size:14px;text-align:center;letter-spacing:.7px;height:41px;transition:all .5s ease;position:relative;max-width:100%;font-family:"gotham";font-style:oblique;text-transform:uppercase;margin-top:90px;margin-left:32px}
 .review i{font-size:9px;color:#ffd100;margin-left:-4px}
 .review{margin-top:4px;margin-left:5px}
 .review span{font-size:9px;margin-left:0}
 .demand{color:#d30404;font-size:9px}
 .demand .box{border:1px solid;border-radius:3px;height:21px;width:92px;margin-top:50px;font-size:11px;padding:3px;line-height:12px;margin-bottom:7px}
 @media screen and (max-width: 1024px) {
-    h1{
-    font-size: 33px!important;
-    margin-left: 249px!important;
-}
-
+h1{font-size:33px!important;margin-left:249px!important}
 }
 @media screen and (max-width: 768px) {
 .popup{bottom:80px}
@@ -122,14 +84,10 @@ header p{font-size:13px;width:90%;line-height:24px}
 .mobile{display:block}
 button.primary-btn.btn.recent{width:143px;position:relative;height:40px;font-size:14px;margin-bottom:8px}
 button.primary-btn.btn.recent:after{content:"";height:2px;width:calc(100vw - 60px);display:block;background:#006285;position:absolute;top:calc(100% - 2px)}
-
 .offers{margin-left:15px;margin-right:15px}
 }
 @media screen and (max-width: 767px) {
-    img.santa{
-    top: 105px!important;
-    margin-left: -190px!important;
-}
+img.santa{top:105px!important;margin-left:-190px!important}
 .popup-outer{height:30px}
 .popup{bottom:50px;left:50%;margin-left:-145px;z-index:9;position:absolute}
 .popup-cont{width:96vw;left:calc(50%);margin-left:-48vw}
@@ -139,28 +97,14 @@ header{height:177px;margin-bottom:168px}
 }
 @media screen and (max-width:414px) {
 .popup{bottom:-38px}
-img.santa{
-    top: 113px!important;
-    width: 370px;
+img.santa{top:113px!important;width:370px}
 }
-}
-
 @media screen and (max-width:320px) {
 .popup{bottom:-38px}
-img.santa{
-    top: 113px!important;
-    margin-left: -160px!important;
+img.santa{top:113px!important;margin-left:-160px!important}
+.content{margin-top:-57px!important}
+h1{font-size:32px!important}
 }
-
-.content {
-    margin-top: -57px!important;
-}
-h1
-{
-    font-size: 32px!important;
-}
-}
-
 .popup-title{background:#fff;width:290px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center}
 .popup{position:fixed;bottom:20px;z-index:9}
 .popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width:460px;height:auto;bottom:1px;position:absolute;z-index:9;display:none}
@@ -176,31 +120,16 @@ h1
 .popup-title:hover{background:#dcdcdc}
 .pick-btn:hover{background:#37f5f3;color:#fff}
 .popup-outer{float:left;width:100%;height:50px}
-header .container {
-    height: 100%;
-    position: relative;
-}
-header {
-    background: url(../imgs/header.png);
-    height: 223px;
-    position: relative;
-    border-bottom: 2px solid #000;
-    background-size: cover;
-    background-position: center;
-    font-family: 'Ultra', serif;
-}
-h1{font-family: "gotham";color: #b1000f;margin-top: 149px;font-size: 36px;font-weight: bold;font-style: italic;margin-left: 138px;text-shadow: 3px 4px 8px #9e9e9e;word-spacing: 1px;}
-
-h1 .green {
-    color: #00b139;
-}
+header .container{height:100%;position:relative}
+header{background:url(../imgs/header.png);height:223px;position:relative;border-bottom:2px solid #000;background-size:cover;background-position:center;font-family:'Ultra',serif}
+h1{font-family:"gotham";color:#b1000f;margin-top:149px;font-size:36px;font-weight:700;font-style:italic;margin-left:138px;text-shadow:3px 4px 8px #9e9e9e;word-spacing:1px}
+h1 .green{color:#00b139}
 h3{color:#fff;text-shadow:3px 1px 8px #4a4a4a;margin-top:10px;font-size:19px;font-weight:700;word-spacing:4px;letter-spacing:.5px;margin-bottom:18px}
 header p{color:#000;font-weight:700;width:516px;margin:auto;line-height:22px;font-size:12px;letter-spacing:1px;max-width:100%}
 .offers{text-align:left}
 .title .logo{float:left;width:129px;margin-top:16px}
 .title .text{float:left}
-p.desc{float:left;font-size:11px;padding-left: 11PX;margin-top: 14px;color: #000000;line-height: 17px;padding-right: 23px;}
-
+p.desc{float:left;font-size:11px;padding-left:11PX;margin-top:14px;color:#000;line-height:17px;padding-right:23px}
 .more{float:left;color:#28b7f2;font-weight:700;font-style:oblique;font-size:12px;margin-top:3px;padding-left:6px}
 .more i:before{font-size:10px}
 .more i{border:1px solid;border-radius:50%;height:24px;width:24px;text-align:center;line-height:20px;margin-left:4px}
@@ -221,73 +150,41 @@ header p span{color:#e9000b;letter-spacing:0}
 .review span{font-size:9px;margin-left:0}
 .demand{color:#d30404;font-size:9px}
 .demand .box{border:1px solid;border-radius:3px;height:21px;width:92px;margin-top:50px;font-size:11px;padding:3px;line-height:12px;margin-bottom:7px}
-
 @media screen and (max-width: 768px) {
 .popup{bottom:80px}
-header{height: 227px;margin-bottom:118px;background: transparent;border: 0;}
-.offer{text-align:center;border:none;border-top:2px solid #eaeaea;border-bottom:2px solid #eaeaea;padding-bottom:16px;margin-bottom:14px;height: auto;padding: 30px 10px;float: left;}
-
-.offer .desc:after {width: calc(100% + 20px);height: 3px;right: 0;content: "";display: block;background: #c9413f;position: absolute;bottom: -40px;left: -10px;}
-
-.offer:after {
-    display: none;
-}
-.offer-img{width: 120px;height: 120px;left: 50%;margin-left: -60px;position: relative;}
-
-.offer-action .sub {
-    text-align: center;
-    width: 100%;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.offer-action .sub:after {
-    display: none;
-}
+header{height:227px;margin-bottom:118px;background:transparent;border:0}
+.offer{text-align:center;border:none;margin-bottom:14px;height:auto;padding:30px 10px;float:left}
+.offer .desc:after{width:calc(100% + 20px);height:3px;right:0;content:"";display:block;background:#c9413f;position:absolute;bottom:-40px;left:-10px}
+.offer:after{display:none}
+.offer-img{width:120px;height:120px;left:50%;margin-left:-60px;position:relative}
+.offer-action .sub{text-align:center;width:100%;font-size:18px;margin-bottom:10px}
+.offer-action .sub:after{display:none}
 .offer-img img{width:100%}
 .offer-action{width:100%;padding:0}
 .offer-info{width:100%}
-.offer-info button{width:202px;height: 63px;font-size: 26px;margin-top: 70px;margin-left: -30px;}
+.offer-info button{width:202px;height:63px;font-size:26px;margin-top:70px;margin-left:-30px}
 .offer-info button i{top:10px;font-size:19px}
 .review{margin-top:11px}
 .demand{margin-top:15px}
-.offer .title{text-align:center;font-size: 24px;margin-top: 10px;padding-left: 0;padding-right: 0;}
+.offer .title{text-align:center;font-size:24px;margin-top:10px;padding-left:0;padding-right:0}
 .title .logo{float:none;margin:auto;width:166px;margin-top:13px}
-p.desc{display:inline-block;width:auto;float:none;margin-top:14px;font-size: 17px;line-height:21px;position: relative;}
+p.desc{display:inline-block;width:auto;float:none;margin-top:14px;font-size:17px;line-height:21px;position:relative}
 .more{display:inline-block;float:none}
 .demand .box{margin-top:0;display:inline-block;height:26px;float:left;width:120px;font-size:14px;line-height:17px}
 .demand p{display:inline;font-size:12px;line-height:26px}
-h1{margin-top:50px;font-size: 35px;text-align: center;margin-left: 0!important;color: #fff;text-shadow: 5px 6px 13px #4c4b4b;}
-
-.offer .title {
-    font-size: 21px;
-}
-
-.content {
-    margin-top: -35px;
-    padding-bottom: 80px;
-}
-
-img.santa {
-    top: 23%;
-    left: 50%;
-    margin-left: -235px;
-}
+h1{margin-top:50px;font-size:35px;text-align:center;margin-left:0!important;color:#fff;text-shadow:5px 6px 13px #4c4b4b}
+.offer .title{font-size:21px}
+.content{margin-top:-35px;padding-bottom:80px}
+img.santa{top:23%;left:50%;margin-left:-235px}
 h3{font-size:22px;margin-bottom:37px;line-height:29px}
 header p{font-size:13px;width:90%;line-height:24px}
 .mobile{display:block}
 button.primary-btn.btn.recent{width:143px;position:relative;height:40px;font-size:14px;margin-bottom:8px}
 button.primary-btn.btn.recent:after{content:"";height:2px;width:calc(100vw - 60px);display:block;background:#006285;position:absolute;top:calc(100% - 2px)}
-
 .offers{margin-left:15px;margin-right:15px}
-
-body {
-    background: url(../imgs/bg_mob.png);
-}
+body{background:url(../imgs/bg_mob.png);background-size:cover}
 }
 @media screen and (max-width: 767px) {
-    header
-    {}
 .popup-outer{height:30px}
 .popup{bottom:50px;left:50%;margin-left:-145px;z-index:9;position:absolute}
 .popup-cont{width:96vw;left:calc(50%);margin-left:-48vw}
@@ -296,47 +193,19 @@ body {
 header{height:177px;margin-bottom:168px}
 }
 @media screen and (max-width:414px) {
-.popup{bottom: 20px;}
+.popup{bottom:20px}
 }
-
 @media screen and (min-width: 1400px) {
-    img.santa{
-    top: 10%;
-}
-.offer-img {
-    width: 260px;
-    height: 250px;
-}
-
-.offer-img>img {
-    width: 100%;
-}
-
-.offer:after {
-    right: 270px;
-    width: 4px;
-}
-
-.offer .title {
-    font-size: 19px;
-}
-
-.offer-action .sub {
-    font-size: 18px;
-}
-
-.offer-action .sub:after {
-    width: 30px;
-    height: 2px;
-}
-
-.offer-info {
-    text-align: center;
-    width: 25%;
-    padding-left: 50px;
-}
+img.santa{top:10%}
+.offer-img{width:260px;height:250px}
+.offer-img>img{width:100%}
+.offer:after{right:270px;width:4px}
+.offer .title{font-size:19px}
+.offer-action .sub{font-size:18px}
+.offer-action .sub:after{width:30px;height:2px}
+.offer-info{text-align:center;width:25%;padding-left:50px}
 .popup-title{font-size:13px;width:310px;height:34px}
-.offer-info button{width: 171px;height: 55px;font-size: 20px;margin-left: 0;}
+.offer-info button{width:171px;height:55px;font-size:20px;margin-left:0}
 .offer-info button i{top:13px;font-size:17px}
 .demand .box{font-size:14px;width:120px;height:26px;line-height:19px;text-align:center}
 .review{margin-top:20px}
@@ -347,12 +216,11 @@ header{height:177px;margin-bottom:168px}
 .more i{line-height:18px}
 .more{font-size:15px}
 .title .logo{width:165px}
-.content{max-width: 1048px;}
-header{height: 290px;background-position: center;background-size: cover;}
-h1{margin-top: 212px;font-size: 45px;margin-left: 290px;}
+.content{max-width:1048px}
+header{height:290px;background-position:center;background-size:cover}
+h1{margin-top:212px;font-size:45px;margin-left:290px}
 h3{font-size:25px}
 header p{font-size:16px;width:700px;line-height:30px}
-p.desc{font-size: 16px;line-height: 24px;}
-.offer{margin-bottom: 4px;height: 358px;}
-
+p.desc{font-size:16px;line-height:24px}
+.offer{margin-bottom:4px;height:358px}
 }
