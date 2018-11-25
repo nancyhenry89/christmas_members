@@ -33,7 +33,7 @@ header p{color:#000;font-weight:700;width:516px;margin:auto;line-height:22px;fon
 .offer-img{width:27%}
 .title .logo{float:left;width:129px;margin-top:16px}
 .title .text{float:left}
-.offer .title{float:left;width:100%;font-family:"gotham";color:#000;padding-left:8px;font-style:oblique;padding-top:2px}
+.offer .title{float:left;width:100%;font-family:"gotham";color:#000;padding-left:8px;font-style: italic;padding-top:2px;}
 .offer-action{width:48%;padding-left:15px}
 .offer>div{float:left}
 .container-fluid.content>.container{max-width:100%}
